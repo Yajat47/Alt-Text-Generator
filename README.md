@@ -10,3 +10,16 @@ Running Instructions:
 5. Run : "npm start" and go to "http://localhost:3001" on your browser.
 
 
+About:
+
+Tech Stack : MERN
+
+Alt Text Generation:
+
+Using Salesforce's Blip Model via Replicate's API
+
+API Routes:
+
+POST "/upload" : Exposes MongoDb Storage
+POST "/alt" : API call to Replicate
+GET "/images" : Fetch Uploaded Images from MongoDb
